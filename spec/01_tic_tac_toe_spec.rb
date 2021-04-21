@@ -22,7 +22,7 @@ describe './lib/tic_tac_toe.rb' do
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([0,4,8])
         expect(TicTacToe::WIN_COMBINATIONS).to include_array([6,4,2])
       end
-    end
+    end 
 
     describe '#display_board' do
       it 'prints arbitrary arrangements of the board' do
